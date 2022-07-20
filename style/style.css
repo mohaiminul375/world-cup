@@ -15,6 +15,7 @@
     box-shadow: 5px 5px 10px gray;
 }
 .flag-img{
+    width: 85%;
     display: flex;
     flex-direction: row;
 }
@@ -24,9 +25,9 @@
     display: flex;
     flex-direction: row;
 }
-.inner-image h1{
+/* .inner-image h1{
     
-}
+} */
 .inner-image img{
     width: 50%;
 }
@@ -43,7 +44,8 @@
     font-weight: 700;
     color: rosybrown;
 }
-
+/* responsive-stat */
+/* for-smartphone */
 @media only screen and (max-width:767px)
 {
     .matches-schedule{
@@ -55,6 +57,7 @@
         width: 90%;
     }
 }
+/* for-tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .matches-schedule{
