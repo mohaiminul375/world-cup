@@ -196,9 +196,15 @@ hr{
 .flag-img{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    /* width: 50%; */
+
 }
-.flag-img img{
-    height: 100px; ;
-    weight: 80px; ;
+.inner-image{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.inner-image img{
+    width: 50%;
 }
