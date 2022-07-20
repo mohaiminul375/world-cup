@@ -1,0 +1,46 @@
+.matches-schedule{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 30px 60px;
+    margin-left: 20px;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100% ;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px gray;
+}
+.flag-img{
+    display: flex;
+    flex-direction: row;
+}
+.inner-image{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.inner-image h1{
+    
+}
+.inner-image img{
+    width: 50%;
+}
+.flag-text{
+    margin: 28px;
+}
+.flag-text h3{
+    font-size: 18px; 
+    text-align: center;
+}
+.flag-text p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: rosybrown;
+}
+

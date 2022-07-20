@@ -38,10 +38,8 @@ font-family: 'Albert Sans', sans-serif;
     border: 2px solid green;
 
 }
-.banner-image img{
-    /* width: 100%; */
+
     
-}
 .banner-btn{
     margin-top: 30px;
 background-color: #DD0000;
@@ -55,6 +53,7 @@ border-radius: 5px;
 }
 /* header-section-end */
 
+/* blog-and-navbar-start */
 .blog-main{
     margin-top: 50px;
     display: flex;
@@ -132,7 +131,8 @@ background-color: #DD0000;
     margin-top: 12px;
 }
 
-/* --blog-end-- */
+/* --navbar-andblog-end-- */
+/* --footer-start---- */
 footer{
     margin-top: 50px;
     display: flex;
@@ -155,7 +155,12 @@ footer{
     justify-content: center;
 
 }
-.f-text{
+.flinks-item{
+    margin-top: 30px;
+    display: flex;
+    
+}
+.f-text h1{
 
     color: palegreen;
     font-family: 'Edu NSW ACT Foundation', cursive;
@@ -168,11 +173,7 @@ hr{
     border-left: hidden;
     border-right: hidden;
 }
-.flinks-item{
-    margin-top: 30px;
-    display: flex;
-    
-}
+
 .flinks-item a{
     text-decoration: none;
     color: wheat;
@@ -191,20 +192,58 @@ hr{
     justify-content: center;
 }
 
+/* --footer-end---- */
+
+/* ---responsive-start-- */
+
+/* ---smartphone--- */
+@media only screen and (max-width:767px) {
+    .banner-main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .banner-container{
+        height: 90vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .banner-text{
+        margin-top: 0px;
+        width: 90%;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 16px;
+    }
+    .banner-image{
+        width: 90%;
+        align-items: center;
+    }
+    
 
 
-.flag-img{
+.blog{
     display: flex;
-    flex-direction: row;
-    /* width: 50%; */
-
-}
-.inner-image{
+    flex-direction: column;
+    width: 90%;
     align-items: center;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
-.inner-image img{
-    width: 50%;
+nav{
+    align-items: center;
+    width: 80%;
+    background-color:inherit;
+}
+.live-matches{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+}
 }
